@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDom from "react-dom";
-import markdownPreviewer from "./app";
+import MarkdownPrev from "./markdownPrev";
 import "./style.css";
 
-ReactDom.render(<markdownPreviewer />, document.getElementById("root"));
+ReactDom.render(<MarkdownPrev />, document.getElementById("root"));
